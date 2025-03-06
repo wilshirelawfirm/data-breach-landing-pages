@@ -286,8 +286,9 @@ button.main-button {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #535353;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3)), url(../../assets/images/wrongful-termination-banner.webp);
-    background-position: 30%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url(../../assets/images/data-breach-banner.webp);
+    background-position: top 50%;
+    background-attachment: fixed;
     min-height: 450px;
     height: 80vh;
     max-height: 700px;
