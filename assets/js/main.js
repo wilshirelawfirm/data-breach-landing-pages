@@ -1,0 +1,1 @@
+$((function(){window.addEventListener("hashchange",(function(){history.replaceState("",document.title,window.location.pathname+window.location.search)}))}));
