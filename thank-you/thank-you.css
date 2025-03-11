@@ -1,5 +1,5 @@
 .welcome-area {
-    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .2)), url(../assets/images/lawyers.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .2)), url(../assets/images/los-angeles.webp);
 }
 
 .welcome-area h1 {
@@ -13,7 +13,7 @@
 
 @media (max-width: 991px) {
     .welcome-area {
-        height: 80vh !important;
+        height: 75vh !important;
         background-position: center;
         max-height: unset;
     }
