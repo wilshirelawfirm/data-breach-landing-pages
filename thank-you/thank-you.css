@@ -1,0 +1,34 @@
+.welcome-area {
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .2)), url(../assets/images/lawyers.webp);
+}
+
+.welcome-area h1 {
+    font-size: 65px !important;
+}
+
+.welcome-area h3 {
+    color: #FFFFFF;
+    font-size: 23px;
+}
+
+.stars {
+    background-image: url("../assets/images/star.png");
+    background-size: 20%;
+    height: 46px;
+    width: 250px;
+    display: block
+}
+
+a {
+    color: #FFFF;
+}
+
+a span.text {
+    border-bottom: 1px solid;
+    transition: all 0.2s ease-in-out;
+    font-weight: 600;
+}
+
+a:hover span.text {
+    color: rgb(242, 103, 36);
+}
