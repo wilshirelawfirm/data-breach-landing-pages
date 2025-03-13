@@ -128,11 +128,7 @@
     <script src="../assets/js/popper.js"></script>
     <script src="../assets/js/bootstrap.min.js"></script>
     <script>
-      window?.optimizely?.push({
-        type: "event",
-        eventName: "form_completion",
-        tags: { revenue: 0, value: 0 },
-      });
+      window.parent.postMessage("form_completion", "*");
     </script>
   </body>
 </html>
