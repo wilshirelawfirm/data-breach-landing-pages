@@ -32,13 +32,14 @@ $(function () {
   let counter = 0;
   function restartTimeout(maxCount) {
     setInterval(function () {
-      if (counter === maxCount) {
-        counter = 1;
-        slider[0].scrollLeft = 100;
+      if (counter === maxCount - 1) {
+        counter = 0;
+        slider[0].scrollLeft = 0;
         return;
       }
       counter++;
-      slider[0].scrollBy(counter * 100, 0); // speed
+      console.log(counter);
+      slider[0].scrollBy(275, 0); // speed
     }, 2500); // duration
   }
   restartTimeout(slides.length);
