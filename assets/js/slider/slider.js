@@ -32,9 +32,9 @@ $(function () {
   let counter = 0;
   function restartTimeout(maxCount) {
     setInterval(function () {
-      if (counter === maxCount - 1) {
-        counter = 0;
-        slider[0].scrollLeft = 0;
+      if (counter === maxCount) {
+        counter = 1;
+        slider[0].scrollLeft = 100;
         return;
       }
       counter++;
