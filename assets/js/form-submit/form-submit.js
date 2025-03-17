@@ -1,4 +1,7 @@
-/* Edit here but MINIFY TO ANOTHER DOCUMENT form-submit-min.js, import minified version to html for fast load time */
+/* 
+  Edit here but MINIFY TO ANOTHER DOCUMENT form-submit-min.js, 
+  import minified version to html for fast load time 
+*/
 
 !(function (e) {
   "use strict";
